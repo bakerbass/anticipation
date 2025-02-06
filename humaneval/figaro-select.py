@@ -57,7 +57,7 @@ def select_prompt(filenames, clip_length, verbose=False):
 
         ground = ops.clip(ground, 0, clip_length, clip_duration=True)
 
-        yield os.path.basename(figaro_filename), prompt, ground, figaro 
+        yield os.path.basename(figaro_filename), prompt, ground, figaro
 
 
 def main(args):

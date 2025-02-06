@@ -10,7 +10,7 @@ import torch
 from transformers import AutoModelForCausalLM
 
 from anticipation.sample import generate
-from anticipation import ops
+from midi_utils import ops
 
 def main(args):
     # initialize the model and tokenizer

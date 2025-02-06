@@ -63,7 +63,7 @@ def select_sample(filenames, prompt_length, clip_length, verbose=False):
         high = 0
         for instr in ops.get_instruments(clip).keys():
             if instr in [0,9] + list(range(112,129)):
-                continue 
+                continue
 
             avg = np.mean(pitches[instr])
             if avg > high:
