@@ -1,3 +1,4 @@
 *.mid
 *.wav
 *.sf2
+.DS_Store
